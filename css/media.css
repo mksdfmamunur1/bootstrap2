@@ -1,0 +1,97 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+	.logo_img {
+    height: 30px;
+    width: 29px;
+    border-radius: 50%;
+    background-color: #BDBEC0;
+    margin-left: 10px;
+}
+.nav {
+    float: right;
+     margin-top: 0px; 
+}
+.nav ul li a {
+    text-decoration: none;
+    background-color: #BEBDC2;
+    display: block;
+    height: 30px;
+    width: 50px;
+    margin-right: 15px;
+}
+.banner {
+    width: 100%;
+    min-height: 150px;
+    background-color: #BDBEC0;
+}
+.banner h1 {
+    text-align: center;
+    font-size: 40px;
+    padding: 40px 0px;
+}
+.service {
+    margin: 20px 0px;
+}
+.sm_heading {
+    min-height: 15px;
+    background-color: gray;
+    border: transparent;
+    border-radius: 5px;
+}
+.sm_para {
+    width: 100%;
+    min-height: 10px;
+    background-color: #BDBEC0;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+.service_middle_right {
+    width: 100%;
+    min-height: 140px;
+    background-color: #BDBEC0;
+}
+.para {
+    border: 1px solid black;
+    min-height: 10px;
+    background-color: #BDBEC0;
+    border: transparent;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.pad {
+    padding-left: 15px;
+}
+.single_bottom {
+    width: 100%;
+    min-height: 129px;
+    background-color: #BDBEC0;
+}
+.footer {
+    width: 100%;
+    min-height: 100px;
+    background-color: #BDBEC0;
+}
+ }
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+.pad {
+    padding-left: 0px;
+}
+ }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+ }
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+ }
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+
+ }
